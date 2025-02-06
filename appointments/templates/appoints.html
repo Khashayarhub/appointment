@@ -1,0 +1,7 @@
+<h1> فرم نوبت دهی</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_table }}
+
+    <button type="submit">submit</button>
+</form>
